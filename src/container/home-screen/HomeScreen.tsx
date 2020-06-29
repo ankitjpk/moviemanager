@@ -8,6 +8,7 @@ interface Props {
   navigation: any;
 }
 
+//start
 const HomeScreen: React.FC<Props> = props => {
   const [movieList, setMovieList] = useState<IMovie>();
   const [filteredMovieList, setFilteredMovieList] = useState<IMovie>();
